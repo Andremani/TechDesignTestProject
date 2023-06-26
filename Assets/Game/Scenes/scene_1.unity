@@ -518,12 +518,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3000053480167493617, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: dropdown
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3283552873555330876, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
       propertyPath: m_TargetGraphic
       value: 
       objectReference: {fileID: 303794402}
+    - target: {fileID: 3554464712683923704, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_text
+      value: Locale choser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618640519858720677, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000015258789
+      objectReference: {fileID: 0}
     - target: {fileID: 7433711336631922771, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494761015103859882, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494761015103859882, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
