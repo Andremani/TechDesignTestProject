@@ -123,15 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &373329768 stripped
+--- !u!114 &303794401 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1164424085038660315, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3283552873555330876, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
   m_PrefabInstance: {fileID: 2043239140177120954}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &303794402 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5093829170565189187, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+  m_PrefabInstance: {fileID: 2043239140177120954}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &519420028
@@ -296,7 +307,7 @@ PrefabInstance:
     - target: {fileID: 2400072989630290005, guid: 98dc7c9a7f100194fb69dff720dab412, type: 3}
       propertyPath: changeSceneButton
       value: 
-      objectReference: {fileID: 373329768}
+      objectReference: {fileID: 303794401}
     - target: {fileID: 4039918500317236828, guid: 98dc7c9a7f100194fb69dff720dab412, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -419,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2043239140428674052, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 2043239140428674053, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -500,6 +515,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2043239140428674053, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283552873555330876, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 303794402}
+    - target: {fileID: 7433711336631922771, guid: e708c8c3b4de36348aaea5dc43682736, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
